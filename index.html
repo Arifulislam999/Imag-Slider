@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        .continer {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .continer img {
+            width: 350px;
+            height: 420px;
+            border-radius: 5px;
+        }
+        
+        #right {
+            font-size: 50px;
+            color: red;
+            float: right;
+            margin-top: 200px;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        
+        #left {
+            font-size: 50px;
+            color: red;
+            float: left;
+            margin-top: 200px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <img id="i_1" src="./1.jpg" alt="" />
+        <div class="con">
+            <i id="right" class="fas fa-chevron-right"></i>
+            <i id="left" class="fas fa-chevron-left"></i>
+            <img id="i_2" src="./1.jpg" alt="" />
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
